@@ -28,6 +28,8 @@ public class Rutina implements Operacion {
         }
 
         throw e;
+        } finally {
+            operaciones.clear();
         }
     }
 
