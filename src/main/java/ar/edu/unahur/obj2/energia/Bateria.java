@@ -18,6 +18,10 @@ public class Bateria {
         return energia;
     }
 
+    public String getIdentificador() {
+        return identificador;
+    }
+
     public void cargar(double cantidad) {
         energia += cantidad;
         //Alerta a los subs
